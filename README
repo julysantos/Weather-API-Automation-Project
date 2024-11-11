@@ -1,0 +1,14 @@
+Elaboração de projeto de automação simples, utilizando Python com integração de APIs e bancos de dados, 
+para amostra no projeto de extensão.
+
+Trata-se de um script com integração das APIs Open-Meteo <https://open-meteo.com/> e OpenCage <https://opencagedata.com/>.
+Estas APIs, respectivamente, servem para resgatar dados meteorológicos de uma área específica utilizando coordenadas de
+latitude e longitude, e transformar estas latitude e longitude em uma string formatada, nomeando a área em questão.
+
+Para a realização deste projeto, utilizei Laragon e suas dependências Python e MySQL.
+Para rodar o script, ative o MySQL na aplicação e rode o código do arquivo weather_db.sql no SGBD de sua preferência.
+Após, insira coordenadas manualmente nos campos latitude e longitude, presentes nas linhas 80 e 81. Utilizei como
+exemplo as coordenadas da Uninorte. Insira os dados no banco usando o comando 'python index.py', e mostre os dados no
+banco rodando 'SELECT * FROM weather_data' 
+
+Acho que é só isso. Espero que tenham gostado.
